@@ -1,0 +1,62 @@
+body {
+  font-family: 'Overpass';
+  background-color: hsl(216, 12%, 8%);
+}
+
+.full-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.rating-container {
+  background-image: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+  border-radius: 20px;
+  width: 296px;
+  height: 350px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  padding: 20px 20px;
+}
+
+.thank-you-image {
+  max-width: 50%;
+  margin-top: 20px;
+}
+
+.selected-rating-message {
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(25, 97%, 53%);
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 100px;
+  width: 200px;
+  margin: 20px auto;
+}
+
+.thank-you-message {
+  color: hsl(0, 0%, 100%);
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.appreciation-message {
+  color: hsl(217, 12%, 63%);
+  line-height: 30px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.attribution {
+  color: hsl(0, 0%, 100%);
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
